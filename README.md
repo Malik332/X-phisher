@@ -1,4 +1,6 @@
 # X-phisher
+### A perfect phishing tool for termux...
+# Ready by May 2021
 ## Installation :
 
 * `apt update`
