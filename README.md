@@ -6,7 +6,7 @@
 * `git clone git://github.com/MALIK332/X-PHISHER.git`
 * `cd X-PHISHER`
 * `bash setup`
-* SETUP [TERMUX] : `bash tmux_setup`
+*  `bash tmux_setup`
 * `bash X-PHISHER`
 
 ## Single Command :
