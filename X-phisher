@@ -207,7 +207,7 @@ elif [[ $menu_option == 99 ]]; then
 about
 elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/htr-tech for more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/MALIK332 for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
@@ -359,7 +359,7 @@ menu
 elif [[ $about_option == 99 ]]; then
 sleep 1
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/htr-tech for more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/MALIK332 for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
@@ -421,7 +421,7 @@ fi
 start_localhost() {
 
 printf "\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;92m( \e[0m\e[1;96mhttp://127.0.0.1:5555 \e[0m\e[1;92m)\e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;92m( \e[0m\e[1;96mhttp://127.0.0.1:5555 \e[0m\e[1;92m)\e[0m\n"
 cd .htr/www && php -S 127.0.0.1:5555 > /dev/null 2>&1 & 
 sleep 2
 smallbanner
