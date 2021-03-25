@@ -33,19 +33,22 @@ sleep 2.0
 clear
 echo " "
 echo " "
-echo -e "$grn                updating the infect  please wait$rset"
+echo -e "$grn                updating the X-phisher please wait$rset"
 sleep 2.0
 cd $HOME
-rm -rf Infect...
-git clone https://github.com/Malik332/Infect...
+rm -rf X-PHISHER
+git clone https://github.com/Malik332/X-PHISHER
 clear
 echo " "
-echo -e "$grn               infect has been updated check it now...$rset"
+echo -e "$grn               X-phisher has been updated check it now...$rset"
 sleep 3.0
 echo " "
 cd $HOME
+
 cd X-PHISHER
-b
+bash setup
+bash tmux_setup
+bash X-PHISHER
 
 clear
 sleep 1.0
