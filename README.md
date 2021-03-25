@@ -5,9 +5,9 @@
 * `apt install git -y`
 * `git clone git://github.com/MALIK332/X-PHISHER.git`
 * `cd X-PHISHER`
-#### > SETUP : `bash setup`
-#### > SETUP [TERMUX] : `bash tmux_setup`
-#### > Run : `bash X-PHISHER`
+* `bash setup`
+* SETUP [TERMUX] : `bash tmux_setup`
+* `bash X-PHISHER`
 
 ## Single Command :
 ```
